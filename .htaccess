@@ -1,0 +1,5 @@
+<Files "pull.php">
+  order deny,allow
+  allow from 207.97.227.253
+  deny from all
+</Files>
