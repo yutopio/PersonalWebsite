@@ -19,24 +19,82 @@
 <li>Information security</li>
 <li>Parallel computing algorithms</li>
 </ul>
-<h2>Projects</h2>
+<h2>Research projects</h2>
 <ul>
+<li><span style="font-weight: bold;">
+    <a href="http://www.kb.ecei.tohoku.ac.jp/~ryosuke/mochi/" target="_blank">MoCHi</a></span><br />
+<p>MoCHi is a software model checker to verify the correcctness of
+  assertions in given programs. It abstract the execution paths of the
+  program by higher-order recursion schemes and perform the
+  verification over them.</p>
+<p>My contribution is in the predicate abstraction of MoCHi. It uses
+  Craig's interpolation for finding appropriate dependent types that
+  abstract the program paths. The demonstration will be soon available
+  on the web, and the result will be submitted to SAS 2013.</p>
+</li>
+<li><span style="font-weight: bold;">
+    <a href="http://why3.lri.fr/" target="_blank">Why3</a></span><br />
+<p>Why3 is a formal verification platform, that enables users to show
+  the correctness of the given program. Its importance lies in the
+  ability to split the large proving goal into smaller ones by
+  introducing intermediate lemmas, which can be separately treated as
+  sub-goals.</p>
+<p>I involved to the Why3 development project by extending the
+  existing proof library. Some of the added theories are essential for
+  proving the correctness of many discrete algorith on graphs (e.g.
+  <a href="https://gforge.inria.fr/plugins/scmgit/cgi-bin/gitweb.cgi?p=why3/why3.git;f=theories/pigeon.why;hb=HEAD">
+    pigeonhole principle</a>). Those theories themselves are proved to
+  be correct by Why3, and ready to be reused for proving large
+  algorithms.</p>
+<p>My contribution to Why3 includes the proof of some well-known
+  algorithms. One among them is available
+  <a href="http://toccata.lri.fr/gallery/bellman_ford.en.html">here</a>.</p>
+</li>
 <li><span style="font-weight: bold;"><a href="http://ocamlgraph.lri.fr/" target="_blank">ocamlgraph</a></span><br />
 As an internship, contribution in some algorithms and graph data structure.</li>
 </ul>
+<h2>Writings
+<span style="font-size: small">(Not formal publications yet)</span></h2>
+<dl>
+<dt>Yuto Takei, Internship report at LRI, 2012.</dt>
+<dd>Compiled the result of one month internship at LRI (see below).</dd>
+<dt>Yuto Takei, Grammar Structure Suggestions for Secure Programming, 2011.</dt>
+<dd>Graduation thesis in partial fulfillment of the requirements for the Degree of Bachelor of Science.
+Analyzed mechanisms on information flow control and verified the previous works on secure typing.</dd>
+<dt>Yuto Takei, Junya Arai, Atsushi Hanamoto, and, Takashi Kanazawa, Technical report of CPU Experiment, 2010.</dt>
+<dd>Student lab coursework of software and hardware design and implementation. Circuit design, implementation, testing and optimization of a processor. We successfully deployed 3D renderer on FPGA.</dd>
+</dl>
 <h2>Internship</h2>
 <ul>
 <li><span style="font-weight: bold;">[Aug 2010 - Oct 2010]
-<a href="http://www.google.com/about/corporate/company/" target="_blank">Google Inc.</a></span><br />
-Software Engineer Intern at Google Maps team</li>
+<a href="http://www.google.com/about/corporate/company/" target="_blank">Google Inc.</a></span>
+<p>Software Engineer Intern at Google Maps team.</p></li>
 <li><span style="font-weight: bold;">[Aug 2011 - Sep 2011]
-<a href="http://preferred.jp/co_info.html" target="_blank">Preferred Infrastructure</a></span><br />
-Internship of research and development on multilingual text analysis</li>
+<a href="http://preferred.jp/co_info.html" target="_blank">Preferred Infrastructure, Inc.</a></span>
+<p>Internship of research and development on multilingual text
+  analysis and mining. Out project "Mogella" aimed to build a realtime
+  rating system on news and daily topics across different spoken
+  languages. It let the user to give a search query and show the
+  realtime opinions on certain topics.</p>
+<p>The software connects to twitter gardenhose and built the
+  processing pipeline to detect language and measure the sentiment by
+  unsupervised learning. The greatest advantage of this software is
+  that can know the predicate</p></li>
 <li><span style="font-weight: bold;">[Feb 2012 - Mar 2012]
 <a href="http://www.lri.fr/" target="_blank">Laboratoire de Recherche en Informatique</a></span><br />
-Research internship with supervision by <a href="http://www.lri.fr/~filliatr/" target="_blank">Jean-Christophe Filliâtre</a>.
-Formal verification of Bellman-Ford algorithm.</li>
+<span>Final presentation slides available <a href="https://docs.google.com/file/d/0B3XjN5oFEVAVUUczR3N5Smh1ajQ/edit">here</a>.</span>
+<p>Research internship with supervision by
+  <a href="http://www.lri.fr/~filliatr/"
+  target="_blank">Jean-Christophe Filliâtre</a>.  At ProVal team
+  (reorganized to <a href="http://toccata.lri.fr/"
+  target="_blank">Toccata</a> as of Aug '12), I have studied and
+  implemented several discrete algorithms on OCaml. I also formalized
+  the proof on Why3 platform of Bellman-Ford algorithm, the one among
+  those implemented algorithms.</p>
+</p></li>
 </ul>
+
+<!-- Miscellaneous
 <h2>Job experiences</h2>
 <ul>
 <li><span style="font-weight: bold;">[Apr 2007 - Dec 2010]
@@ -49,4 +107,6 @@ Part-time employee as a textbook reviewer for mathematics</li>
 <a href="http://www.t.u-tokyo.ac.jp/etpage/" target="_blank">School of Engineering, The University of Tokyo</a></span><br />
 Part-time librarian at Engineering Building 2 Library</li>
 </ul>
+-->
+
 </body></html>
